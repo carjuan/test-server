@@ -15,6 +15,18 @@ a {
   color: #2b2b2b;
 }
 
+h1 {
+  padding: 1rem 0;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+.main-container {
+  padding: 0rem 1rem;
+}
+
 .btn-links {
   border: 2px solid blue;
 }
