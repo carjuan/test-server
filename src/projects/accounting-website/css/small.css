@@ -1,0 +1,44 @@
+
+.sidenav-quit {
+  margin
+}
+
+
+
+
+/*-------------------------------- showcase -------------------------- */
+
+.hero-showcase__title {
+  line-height: 1.2;
+}
+
+.hero-showcase__paragraph {
+  padding: 20px 0;
+}
+
+/*-------------------------------- Who we are section -------------------------- */
+
+.who-section__paragraph {
+  max-width: 100%;
+}
+
+.who-section__play-button {
+  position: absolute;
+  right: 22%;
+}
+
+/* -----------------------------get started section----------------------------- */
+
+/* Footer */
+
+.footer__content-map {
+  display: none;
+}
+
+.footer__content-newsletter {
+  margin: 0;
+  width: 100%;
+}
+.button--form {
+  width: 100%;
+}
