@@ -1,0 +1,52 @@
+@import "default.css";
+
+.main-container {
+  padding: 0rem 1rem;
+}
+
+.btn-links {
+  background: var(--btn-bg-color);
+  border: none;
+  margin-top: 2%;
+}
+
+.btn-links__link {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  position: relative;
+}
+
+.btn-links__link::before,
+.btn-links__link::after {
+  position: absolute;
+  content: "";
+  transition: width 0.25s;
+}
+
+.btn-links__link::before {
+  border-bottom: 2px solid #e1c315;
+  border-left: 2px solid #e1c315;
+  width: 10%;
+  height: 33%;
+  bottom: -2px;
+  left: -2px;
+}
+
+.btn-links__link::after {
+  border-top: 2px solid #e1c315;
+  border-right: 2px solid #e1c315;
+  width: 10%;
+  height: 33%;
+  top: -2px;
+  right: -2px;
+}
+
+.btn-links__link:hover::after {
+  width: 102%;
+  height: 112%;
+}
+
+.btn-links__link:hover::before {
+  width: 102%;
+  height: 114%;
+}
