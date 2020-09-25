@@ -1,3 +1,10 @@
+:root {
+  --main-bg-color: #191717c7;
+  --font-color: #e5e4e4;
+  --btn-bg-color: #e48e1f;
+  --btn-border-color: #e1c315;
+}
+
 *,
 *::after,
 *::before {
@@ -6,8 +13,9 @@
   margin: 0;
 }
 body {
-  background-color: #d4cdcd5e;
+  background-color: var(--main-bg-color);
   font-family: "Syne", sans-serif;
+  color: var(--font-color);
 }
 
 a {
